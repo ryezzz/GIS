@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Single layer | CARTO</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <link href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="map"></div>
+    <select class="layer-picker">
+      <option value="all">Show all collisions</option>
+      <option value="1">Where someone was injured</option>
+<!--       <option value="0">0</option>
+      <option value="Neonate">Neonate</option> -->
+    </select>
+    <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://cartodb-libs.global.ssl.fastly.net/carto.js/v4.0.0-beta.25/carto.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
